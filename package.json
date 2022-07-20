@@ -2,7 +2,10 @@
   "name": "my-cv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cntuan90.github.io/my-cv/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -64,6 +67,7 @@
     "@types/react-redux": "^7.1.9",
     "@types/react-swipeable-views": "^0.13.1",
     "@types/react-transition-group": "^4.4.0",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.0.5",
     "react-reveal": "^1.2.2",
     "typescript": "^3.9.7"

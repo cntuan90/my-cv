@@ -86,7 +86,7 @@ const Profile: React.FC = () => {
             <Grid container item xs={8}>
               <Container disableGutters>
                 <About profile={profile} />
-                <Certificate profile={profile} />
+                {/* <Certificate profile={profile} /> */}
                 <Experience profile={profile} />
                 <Project profile={profile} />
               </Container>

@@ -27,7 +27,7 @@ const Certificate: React.FC<Props> = (props) => {
       </Typography>
 
       <ul>
-        {props.profile.certificates.map((certificate, index) => (
+        {/* {props.profile.certificates.map((certificate, index) => (
           <li key={index}>
             {certificate.isPopup ? (
               <Link onClick={() => setImagePopupData({ open: true, images: certificate.images })}>
@@ -45,7 +45,7 @@ const Certificate: React.FC<Props> = (props) => {
               </Link>
             )}
           </li>
-        ))}
+        ))} */}
       </ul>
 
       <CertificateImagePopup

@@ -1,10 +1,10 @@
 import moment from 'moment';
 
 const profile = {
-  name: 'Nguyen Truong Giang',
-  career: 'Software Engineer (3 years experience)',
+  name: 'Cao Ngoc Tuan',
+  career: 'Software Engineer (2 years experience)',
 
-  avatar: '/gk.jpg',
+  avatar: '/Cat.png',
 
   about: `My career path is to become an exellent Fullstack Developer, who can create high quality, secure and friendly products which can satify the expectation of customers.
 
@@ -15,7 +15,7 @@ It would be great if I had the opportunity to work in an environment where Engli
   personals: [
     {
       image: 'today',
-      content: moment('1995/11/17').format('LL'),
+      content: moment('1990/12/18').format('LL'),
     },
     {
       image: 'face',
@@ -23,44 +23,44 @@ It would be great if I had the opportunity to work in an environment where Engli
     },
     {
       image: 'location_on',
-      content: 'Go Vap District, HCMC',
+      content: 'District 12, HCMC',
     },
     {
       image: 'school',
-      content: 'International UniverSity - HCMC',
-      subContent: 'Electrical Engineering (GPA: 2.8/4.0)',
+      content: 'UniverSity of Science - VNUHCM',
+      subContent: 'Information Technology (2.5y)',
     },
   ],
 
   contacts: [
     {
       image: 'phone_iphone',
-      content: '0978205130',
+      content: '0989275753',
       type: 'text',
     },
     {
       image: 'email',
-      content: 'nguyentruonggiang1711@gmail.com',
+      content: 'cntuan90@gmail.com',
       type: 'text',
     },
     {
       image: 'message',
-      content: 'live:nguyentruonggiang1711',
+      content: 'live:cntuan90',
       type: 'text',
     },
     {
       image: 'facebook',
-      content: 'www.facebook.com/gknguyen1711',
+      content: 'www.facebook.com/cntuan90',
       type: 'url',
     },
     {
       image: 'work',
-      content: 'www.linkedin.com/in/gknguyen1711',
+      content: 'https://www.linkedin.com/in/tuan-ngoc-68b586a4/',
       type: 'url',
     },
     {
       image: 'integration_instructions',
-      content: 'www.github.com/gknguyen',
+      content: 'www.github.com/cntuan90',
       type: 'url',
     },
   ],
@@ -69,7 +69,7 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Languages',
       image: 'g_translate',
-      list: ['English (IELTS 6.5)', 'French (DELF A2)'],
+      list: ['English (TOEIC 695)', 'Japanese (JLPT N2)'],
     },
     {
       category: 'Programming Languages',
@@ -79,7 +79,7 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Back-end',
       image: 'storage',
-      list: ['Node.js, Express.js, Nest.js', 'MySQL, PostgreSQL', 'MongoDB, Redis'],
+      list: ['Node.js, Express.js, Nest.js', 'MySQL, PostgreSQL', 'MongoDB'],
     },
     {
       category: 'Front-end',
@@ -89,7 +89,7 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Automation test',
       image: 'build_circle',
-      list: ['Mocha, Chai, Istanbul', 'Jest, Enzyme', 'Puppeteer'],
+      list: ['Mocha, Chai', 'Jest, Enzyme', 'Puppeteer'],
     },
     {
       category: 'AWS Cloud',
@@ -101,30 +101,30 @@ It would be great if I had the opportunity to work in an environment where Engli
       image: 'settings',
       list: [
         'Docker',
-        'Electron.js',
-        'Kafka',
+        // 'Electron.js',
+        // 'Kafka',
         'Git, Git flow',
         'RESTful API',
-        'Fluentd',
+        // 'Fluentd',
         'Github/Gitlab CI/CD',
       ],
     },
   ],
 
   certificates: [
-    {
-      name: 'AWS Certified Solutions Architect – Associate',
-      link: 'https://www.credly.com/badges/b36874f3-2255-43c7-830e-33f6a7859c72?source=linked_in_profile',
-    },
-    {
-      name: 'Whizlabs certificates',
-      isPopup: true,
-      images: [
-        { name: 'Docker Certified', path: '/certificates/docker.jpg' },
-        { name: 'Github Training', path: '/certificates/github.jpg' },
-        { name: 'Apache Kafka', path: '/certificates/kafka.jpg' },
-      ],
-    },
+    // {
+    //   name: 'AWS Certified Solutions Architect – Associate',
+    //   link: 'https://www.credly.com/badges/b36874f3-2255-43c7-830e-33f6a7859c72?source=linked_in_profile',
+    // },
+    // {
+    //   name: 'Whizlabs certificates',
+    //   isPopup: true,
+    //   images: [
+    //     { name: 'Docker Certified', path: '/certificates/docker.jpg' },
+    //     { name: 'Github Training', path: '/certificates/github.jpg' },
+    //     { name: 'Apache Kafka', path: '/certificates/kafka.jpg' },
+    //   ],
+    // },
   ],
 
   experiences: [
