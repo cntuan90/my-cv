@@ -4,7 +4,7 @@ const profile = {
   name: 'Cao Ngoc Tuan',
   career: 'Software Engineer (2 years experience)',
 
-  avatar: '/Cat.png',
+  avatar: './picture.png',
 
   about: `My career path is to become an exellent Fullstack Developer, who can create high quality, secure and friendly products which can satify the expectation of customers.
 
@@ -84,28 +84,25 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Front-end',
       image: 'devices_other',
-      list: ['HTML5, CSS3, Bootstrap 4', 'React.js, Redux', 'Material-UI, Ant Design'],
+      list: ['HTML5, CSS3, Bootstrap 4', 'React.js, Redux', 'Material-UI, React-hook-form'],
     },
+    // {
+    //   category: 'Automation test',
+    //   image: 'build_circle',
+    //   list: ['Mocha, Chai', 'Jest, Enzyme', 'Puppeteer'],
+    // },
     {
-      category: 'Automation test',
-      image: 'build_circle',
-      list: ['Mocha, Chai', 'Jest, Enzyme', 'Puppeteer'],
-    },
-    {
-      category: 'AWS Cloud',
+      category: 'AWS Cloud (researching)',
       image: 'cloud',
-      list: ['EC2, ASG, VPC', 'S3, Cloudfront', 'RDS, IAM'],
+      list: ['EC2, ASG, VPC', 'S3, Cloudfront'],
     },
     {
       category: 'Other',
       image: 'settings',
       list: [
         'Docker',
-        // 'Electron.js',
-        // 'Kafka',
         'Git, Git flow',
         'RESTful API',
-        // 'Fluentd',
         'Github/Gitlab CI/CD',
       ],
     },
@@ -150,12 +147,12 @@ It would be great if I had the opportunity to work in an environment where Engli
       ],
     },
     {
-      period: 'Feb 2020 - Jun 2021',
-      title: 'GEO SYSTEM SOLUTIONS VIETNAM',
-      position: 'Full-stack Engineer',
+      period: 'Apr 2021 - Apr 2022',
+      title: 'MOR SOFTWARE VIETNAM',
+      position: 'Frontend Developer',
       descriptions: [
-        'Providing IT solutions for GEO corporation in Japan',
-        'Handling full life cycle of projects - from Front-end, Back-end to deployment',
+        'Providing IT solutions for Spa system, Hospital system in Japan',
+        'Handling UI and UX, web app',
         'communicating in Japan with co-workers and clients',
       ],
       projects: [
@@ -165,113 +162,113 @@ It would be great if I had the opportunity to work in an environment where Engli
           descriptions: [
             'Task management, employee management, man-hours management',
             'Web Application',
-            'Technologies : React.js + Express.js',
+            'Technologies : React.js',
             'Resource : 4 members',
             'Period : 1 year',
           ],
         },
-        {
-          name: "Purchased Product's status Finder",
-          position: 'Team Leader',
-          descriptions: [
-            "Research Purchased Product's status, generate logs in server, auto checking update",
-            'Desktop Application',
-            'Technologies : Electron.js + React.js',
-            'Resource : 2 members',
-            'Period : 3 months',
-          ],
-        },
+        // {
+        //   name: "Purchased Product's status Finder",
+        //   position: 'Team Leader',
+        //   descriptions: [
+        //     "Research Purchased Product's status, generate logs in server, auto checking update",
+        //     'Desktop Application',
+        //     'Technologies : Electron.js + React.js',
+        //     'Resource : 2 members',
+        //     'Period : 3 months',
+        //   ],
+        // },
       ],
     },
-    {
-      period: 'Sep 2018 - Jan 2020',
-      title: 'CAPGEMINI VIETNAM',
-      position: 'Software Engineer',
-      descriptions: [
-        'Providing IT solutions for AXA Insurance corporation in France',
-        'Working with backend systems based on COBOL language',
-        'Communicating in French with co-workers and clients',
-      ],
-      projects: [
-        {
-          name: 'AXAPAC',
-          position: 'Developer',
-          descriptions: [
-            "Customer data processing, Contract's fee calculation",
-            'Technologies : Cobol, IMS mainframe',
-            'Resource : more than 50 members',
-          ],
-        },
-      ],
-    },
-    {
-      period: 'Jun 2017 – Sep 2017',
-      title: 'REETECH INDUSTRY SUMMER INTERSHIP',
-      position: 'Mechanical/Electrical Engineer',
-      descriptions: [
-        'Learned how to build and fix switchboards',
-        'Learned how to use some automatic machines like QUADA AE2510 NT',
-        'Learned some knowledge of some type of air-conditioner products',
-      ],
-    },
+    // {
+    //   period: 'Sep 2018 - Jan 2020',
+    //   title: 'CAPGEMINI VIETNAM',
+    //   position: 'Software Engineer',
+    //   descriptions: [
+    //     'Providing IT solutions for AXA Insurance corporation in France',
+    //     'Working with backend systems based on COBOL language',
+    //     'Communicating in French with co-workers and clients',
+    //   ],
+    //   projects: [
+    //     {
+    //       name: 'AXAPAC',
+    //       position: 'Developer',
+    //       descriptions: [
+    //         "Customer data processing, Contract's fee calculation",
+    //         'Technologies : Cobol, IMS mainframe',
+    //         'Resource : more than 50 members',
+    //       ],
+    //     },
+    //   ],
+    // },
+    // {
+    //   period: 'Jun 2017 – Sep 2017',
+    //   title: 'REETECH INDUSTRY SUMMER INTERSHIP',
+    //   position: 'Mechanical/Electrical Engineer',
+    //   descriptions: [
+    //     'Learned how to build and fix switchboards',
+    //     'Learned how to use some automatic machines like QUADA AE2510 NT',
+    //     'Learned some knowledge of some type of air-conditioner products',
+    //   ],
+    // },
   ],
 
   projects: [
-    {
-      period: 'Mar 2021 - Jul 2021',
-      title: 'COLEAD network',
-      type: 'Freelance project',
-      descriptions: [
-        'A social platform aims to connect people in business & startup fields',
-        'Using React Native for Mobile platform',
-        'Using Express.js (Typescript) for server',
-        'Using PostgesSQL server for database',
-        'Deploy in AWS cloud server',
-      ],
-    },
-    {
-      period: 'Jul 2020 - Now',
-      title: 'MY CV TEMPLATE',
-      type: 'Personal project',
-      descriptions: [
-        'The web version of my Curriculum Vitae (CV)',
-        'Using React.js (Typescript) & Material-UI for Web platform',
-        'Using Golang for server',
-        'Deploy in Heroku cloud server',
-      ],
-    },
-    {
-      period: 'Jun 2020 - Feb 2021',
-      title: 'SMARTVIETSOLUTION',
-      type: 'Freelance project',
-      descriptions: [
-        'An e-commercial web app which provides website templates for customers with many kinds of business aspect such as food, clothes, electronic and enterprises.',
-        'Based on PHP language with Laravel MVC framework',
-        'Using Bootstrap to build Web platform',
-        'Using MySQL for database',
-      ],
-    },
-    {
-      period: 'Jul 2019 – Dec 2019',
-      title: 'CENTURY RESTAURANT MANAGEMENT SYSTEM',
-      type: 'Personal project',
-      descriptions: [
-        'Application features: create booking, create contract, storage management, financial management, employee management',
-        'Using React.js (Typescript) for Web platform',
-        'Using Express.js (Typescript) for server',
-        'Using MySQL server for database',
-      ],
-    },
-    {
-      period: 'Sep 2017 – Jun 2018',
-      title: 'BUILD A GAS LEAKED MONITORING SYSTEM BASED ON WIRELESS NETWORKS',
-      type: 'Graduation project',
-      descriptions: [
-        'Using Arduino for processor and Lora network',
-        'Studying C/C++ language as well as HTML, CSS, Javascript for Web platform',
-        'Learning the knowledge of wireless sensor networks',
-      ],
-    },
+    // {
+    //   period: 'Mar 2021 - Jul 2021',
+    //   title: 'COLEAD network',
+    //   type: 'Freelance project',
+    //   descriptions: [
+    //     'A social platform aims to connect people in business & startup fields',
+    //     'Using React Native for Mobile platform',
+    //     'Using Express.js (Typescript) for server',
+    //     'Using PostgesSQL server for database',
+    //     'Deploy in AWS cloud server',
+    //   ],
+    // },
+    // {
+    //   period: 'Jul 2020 - Now',
+    //   title: 'MY CV TEMPLATE',
+    //   type: 'Personal project',
+    //   descriptions: [
+    //     'The web version of my Curriculum Vitae (CV)',
+    //     'Using React.js (Typescript) & Material-UI for Web platform',
+    //     'Using Golang for server',
+    //     'Deploy in Heroku cloud server',
+    //   ],
+    // },
+    // {
+    //   period: 'Jun 2020 - Feb 2021',
+    //   title: 'SMARTVIETSOLUTION',
+    //   type: 'Freelance project',
+    //   descriptions: [
+    //     'An e-commercial web app which provides website templates for customers with many kinds of business aspect such as food, clothes, electronic and enterprises.',
+    //     'Based on PHP language with Laravel MVC framework',
+    //     'Using Bootstrap to build Web platform',
+    //     'Using MySQL for database',
+    //   ],
+    // },
+    // {
+    //   period: 'Jul 2019 – Dec 2019',
+    //   title: 'CENTURY RESTAURANT MANAGEMENT SYSTEM',
+    //   type: 'Personal project',
+    //   descriptions: [
+    //     'Application features: create booking, create contract, storage management, financial management, employee management',
+    //     'Using React.js (Typescript) for Web platform',
+    //     'Using Express.js (Typescript) for server',
+    //     'Using MySQL server for database',
+    //   ],
+    // },
+    // {
+    //   period: 'Sep 2017 – Jun 2018',
+    //   title: 'BUILD A GAS LEAKED MONITORING SYSTEM BASED ON WIRELESS NETWORKS',
+    //   type: 'Graduation project',
+    //   descriptions: [
+    //     'Using Arduino for processor and Lora network',
+    //     'Studying C/C++ language as well as HTML, CSS, Javascript for Web platform',
+    //     'Learning the knowledge of wireless sensor networks',
+    //   ],
+    // },
   ],
 };
 

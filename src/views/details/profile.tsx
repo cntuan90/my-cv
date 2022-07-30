@@ -12,7 +12,7 @@ import {
 import React from 'react';
 import profile from '../../data/profile';
 import About from './components/about';
-import Certificate from './components/certificate/certificate';
+// import Certificate from './components/certificate/certificate';
 import Contact from './components/contact/contact';
 import Experience from './components/experience';
 import Personal from './components/personal/personal';
