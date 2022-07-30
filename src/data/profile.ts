@@ -126,21 +126,21 @@ It would be great if I had the opportunity to work in an environment where Engli
 
   experiences: [
     {
-      period: 'Jul 2021 - Now',
-      title: 'SETEL',
-      position: 'Backend Engineer',
+      period: 'Apr 2022 - Now',
+      title: 'Sharering Vietnam',
+      position: 'Frontend Developer',
       descriptions: [
-        'Providing IT solutions for Petronas corporation in Malaysia',
-        'Working with backend microservices system based on Nodejs',
+        'Providing IT solutions to adapt customer needs by utilising blockchain technology',
+        'Working as Frontend developer on web and mobile',
         'Communicating in English with international teams',
       ],
       projects: [
         {
-          name: 'Setel',
-          position: 'Backend Developer',
+          name: 'sharering access, NFT',
+          position: 'Frontend Developer',
           descriptions: [
-            'a super application (like Grab or Momo) in Malaysia, focus on fuel paying online',
-            'Technologies : Nodejs, Typescript, Microservices, v...v...',
+            'an app that customer can use to access events',
+            'Technologies : Reactjs, Typescript, Microservices, v...v...',
             'Resource : more than 20 members',
           ],
         },
@@ -162,8 +162,8 @@ It would be great if I had the opportunity to work in an environment where Engli
           descriptions: [
             'Task management, employee management, man-hours management',
             'Web Application',
-            'Technologies : React.js',
-            'Resource : 4 members',
+            'Technologies : Reactjs, typescript, redux...',
+            'Resource : 8 members',
             'Period : 1 year',
           ],
         },

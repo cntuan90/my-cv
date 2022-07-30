@@ -52,7 +52,7 @@ const Project: React.FC<Props> = (props) => {
             </TableRow>
           </TableHead>
 
-          <TableBody>
+          {/* <TableBody>
             {props.profile.projects.map((project, index) => (
               <TableRow key={index}>
                 <TableCell style={{ width: 90 }}>
@@ -73,7 +73,7 @@ const Project: React.FC<Props> = (props) => {
                 </TableCell>
               </TableRow>
             ))}
-          </TableBody>
+          </TableBody> */}
         </Table>
       </TableContainer>
     </Box>
