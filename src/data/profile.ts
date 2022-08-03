@@ -180,37 +180,26 @@ It would be great if I had the opportunity to work in an environment where Engli
         },
       ],
     },
-    // {
-    //   period: 'Sep 2018 - Jan 2020',
-    //   title: 'CAPGEMINI VIETNAM',
-    //   position: 'Software Engineer',
-    //   descriptions: [
-    //     'Providing IT solutions for AXA Insurance corporation in France',
-    //     'Working with backend systems based on COBOL language',
-    //     'Communicating in French with co-workers and clients',
-    //   ],
-    //   projects: [
-    //     {
-    //       name: 'AXAPAC',
-    //       position: 'Developer',
-    //       descriptions: [
-    //         "Customer data processing, Contract's fee calculation",
-    //         'Technologies : Cobol, IMS mainframe',
-    //         'Resource : more than 50 members',
-    //       ],
-    //     },
-    //   ],
-    // },
-    // {
-    //   period: 'Jun 2017 – Sep 2017',
-    //   title: 'REETECH INDUSTRY SUMMER INTERSHIP',
-    //   position: 'Mechanical/Electrical Engineer',
-    //   descriptions: [
-    //     'Learned how to build and fix switchboards',
-    //     'Learned how to use some automatic machines like QUADA AE2510 NT',
-    //     'Learned some knowledge of some type of air-conditioner products',
-    //   ],
-    // },
+    {
+      period: 'Aug 2018 - Mar 2021',
+      title: 'Interfood Shareholding Company',
+      position: 'Japanese Interpreter',
+      descriptions: [
+        'Maintenance budget management',
+        'Supply Chain Management',
+        'Translate between Japanese-Vietnamese for mechanic teams and others',
+      ],
+    },
+    {
+      period: 'Oct 2015 - May 2018',
+      title: 'Isuzu Viet Nam Co., Ltd',
+      position: 'Japanese Interpreter',
+      descriptions: [
+        'After sale services',
+        '5S kaizen, dealer improvement',
+        'Translate between Japanese-Vietnamese for service teams and others',
+      ],
+    },
   ],
 
   projects: [
