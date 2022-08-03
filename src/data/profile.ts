@@ -4,7 +4,7 @@ const profile = {
   name: 'Cao Ngoc Tuan',
   career: 'Software Engineer (2 years experience)',
 
-  avatar: './picture.png',
+  // avatar: '/cntuan.jpg',
 
   about: `My career path is to become an exellent Fullstack Developer, who can create high quality, secure and friendly products which can satify the expectation of customers.
 
@@ -74,17 +74,17 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Programming Languages',
       image: 'code',
-      list: ['Javascript (Typescript)', 'Golang'],
+      list: ['Javascript (Typescript)'],
     },
     {
       category: 'Back-end',
       image: 'storage',
-      list: ['Node.js, Express.js, Nest.js', 'MySQL, PostgreSQL', 'MongoDB'],
+      list: ['Node.js, Express.js', 'MySQL, MongoDB'],
     },
     {
       category: 'Front-end',
       image: 'devices_other',
-      list: ['HTML5, CSS3, Bootstrap 4', 'React.js, Redux', 'Material-UI, React-hook-form'],
+      list: ['HTML5, CSS3, Bootstrap 4', 'React.js, React-native, redux', 'Material-UI, React-hook-form'],
     },
     // {
     //   category: 'Automation test',
@@ -136,11 +136,11 @@ It would be great if I had the opportunity to work in an environment where Engli
       ],
       projects: [
         {
-          name: 'sharering access, NFT',
+          name: 'Sharering Application (Mobile & Web)',
           position: 'Frontend Developer',
           descriptions: [
-            'an app that customer can use to access events',
-            'Technologies : Reactjs, Typescript, Microservices, v...v...',
+            'An app that customer can use to access events, booking hotel, eKYC, share NFT',
+            'Technologies : Reactjs, Typescript, Microservices, Big deeper for explorer v...v...',
             'Resource : more than 20 members',
           ],
         },
@@ -157,27 +157,27 @@ It would be great if I had the opportunity to work in an environment where Engli
       ],
       projects: [
         {
-          name: 'Task Management System',
-          position: 'Developer',
+          name: 'Spa Management System',
+          position: 'Frontend Developer',
           descriptions: [
-            'Task management, employee management, man-hours management',
+            'Employee management, spa course booking, calendar arrangement, admin panel management',
             'Web Application',
-            'Technologies : Reactjs, typescript, redux...',
-            'Resource : 8 members',
-            'Period : 1 year',
+            'Technologies : Reactjs, typescript, redux, material-ui...',
+            'Resource : 10 members',
+            'Period : 9 months',
           ],
         },
-        // {
-        //   name: "Purchased Product's status Finder",
-        //   position: 'Team Leader',
-        //   descriptions: [
-        //     "Research Purchased Product's status, generate logs in server, auto checking update",
-        //     'Desktop Application',
-        //     'Technologies : Electron.js + React.js',
-        //     'Resource : 2 members',
-        //     'Period : 3 months',
-        //   ],
-        // },
+        {
+          name: "Shift Management at Hospital",
+          position: 'Team Leader',
+          descriptions: [
+            "Create application for doctor to register shift online, easy to follow the shift",
+            'Web Application',
+            'Technologies : React.js, typescript, redux, material-ui, ...',
+            'Resource : 4 members',
+            'Period : 3 months',
+          ],
+        },
       ],
     },
     // {
@@ -226,17 +226,15 @@ It would be great if I had the opportunity to work in an environment where Engli
     //     'Deploy in AWS cloud server',
     //   ],
     // },
-    // {
-    //   period: 'Jul 2020 - Now',
-    //   title: 'MY CV TEMPLATE',
-    //   type: 'Personal project',
-    //   descriptions: [
-    //     'The web version of my Curriculum Vitae (CV)',
-    //     'Using React.js (Typescript) & Material-UI for Web platform',
-    //     'Using Golang for server',
-    //     'Deploy in Heroku cloud server',
-    //   ],
-    // },
+    {
+      period: 'Oct 2020 - May 2021',
+      title: 'To-Do-List, Dressing Room, User Management',
+      type: 'Personal project',
+      descriptions: [
+        'Adding task to list, apply CRUD to control data',
+        'Using vanilla javascript and boottrap',
+      ],
+    },
     // {
     //   period: 'Jun 2020 - Feb 2021',
     //   title: 'SMARTVIETSOLUTION',
@@ -248,17 +246,17 @@ It would be great if I had the opportunity to work in an environment where Engli
     //     'Using MySQL for database',
     //   ],
     // },
-    // {
-    //   period: 'Jul 2019 – Dec 2019',
-    //   title: 'CENTURY RESTAURANT MANAGEMENT SYSTEM',
-    //   type: 'Personal project',
-    //   descriptions: [
-    //     'Application features: create booking, create contract, storage management, financial management, employee management',
-    //     'Using React.js (Typescript) for Web platform',
-    //     'Using Express.js (Typescript) for server',
-    //     'Using MySQL server for database',
-    //   ],
-    // },
+    {
+      period: 'Jun 2021 – Present',
+      title: 'Live Chat App, Music-Player, My-Cv',
+      type: 'Personal project',
+      descriptions: [
+        'Application features: real chat app, listen music, add music, CV online',
+        'Using React.js (Typescript) for Web platform',
+        'Using Nodejs, Express.js (Typescript) for server',
+        'Using MySQL, firebase server for database',
+      ],
+    },
     // {
     //   period: 'Sep 2017 – Jun 2018',
     //   title: 'BUILD A GAS LEAKED MONITORING SYSTEM BASED ON WIRELESS NETWORKS',

@@ -18,6 +18,7 @@ import Experience from './components/experience';
 import Personal from './components/personal/personal';
 import Project from './components/project';
 import Skill from './components/skill/skill';
+import Image from '../../data/cntuan.jpg';
 
 const useStyles = makeStyles((theme) => ({
   media: {
@@ -66,7 +67,7 @@ const Profile: React.FC = () => {
 
         <CardHeader
           className={classes.cardHeader}
-          avatar={<Avatar src={profile.avatar} className={classes.avatar} />}
+          avatar={<Avatar src={Image} className={classes.avatar} />}
           title={profile.name}
           titleTypographyProps={{ variant: 'h4' }}
           subheader={profile.career}
