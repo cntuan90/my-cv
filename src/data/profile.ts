@@ -27,8 +27,8 @@ It would be great if I had the opportunity to work in an environment where Engli
     },
     {
       image: 'school',
-      content: 'UniverSity of Science - VNUHCM',
-      subContent: 'Information Technology (2.5y)',
+      content: 'The Saigon College For Art Culture And Tourism',
+      subContent: 'Accountancy',
     },
   ],
 
