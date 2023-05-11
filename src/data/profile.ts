@@ -69,7 +69,7 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Languages',
       image: 'g_translate',
-      list: ['English (TOEIC 695)', 'Japanese (JLPT N2)'],
+      list: ['English (TOEIC 695, IELTS 6.0)', 'Japanese (JLPT N2)'],
     },
     {
       category: 'Programming Languages',
@@ -140,7 +140,7 @@ It would be great if I had the opportunity to work in an environment where Engli
           position: 'Frontend Developer',
           descriptions: [
             'An app that customer can use to access events, booking hotel, eKYC, share NFT',
-            'Technologies : Reactjs, Typescript, Microservices, Big deeper for explorer v...v...',
+            'Technologies : Reactjs, React-Native, Typescript, Microservices, Big deeper for explorer v...v...',
             'Resource : more than 20 members',
           ],
         },

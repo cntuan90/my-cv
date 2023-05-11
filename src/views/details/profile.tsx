@@ -30,7 +30,11 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: 90,
     marginTop: -150,
     marginBottom: 0,
+    alignItems: 'right',
     borderBottom: '1px solid black',
+    '& .MuiCardHeader-title': {
+      color: 'rgba(0, 0, 0, 0.54)',
+    }
   },
   avatar: {
     width: theme.spacing(25),
