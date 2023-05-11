@@ -2,7 +2,7 @@ import moment from 'moment';
 
 const profile = {
   name: 'Cao Ngoc Tuan',
-  career: 'Software Engineer (2 years experience)',
+  career: 'Software Engineer',
 
   // avatar: '/cntuan.jpg',
 
