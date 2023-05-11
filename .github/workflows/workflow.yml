@@ -10,17 +10,11 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Install python2
-        run: apt update && DEBIAN_FRONTEND=noninteractive apt install -y python2 make g++
-      - name: Test python2
-        run: python2 --version
-      - run: npm install sass node-sass@4.14.1
 
       - name: Install and build
         run: npm install && npm run build
