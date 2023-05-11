@@ -126,7 +126,7 @@ It would be great if I had the opportunity to work in an environment where Engli
 
   experiences: [
     {
-      period: 'Apr 2022 - Now',
+      period: 'Apr 2022 - Present',
       title: 'Sharering Vietnam',
       position: 'Frontend Developer',
       descriptions: [
@@ -140,7 +140,7 @@ It would be great if I had the opportunity to work in an environment where Engli
           position: 'Frontend Developer',
           descriptions: [
             'An app that customer can use to access events, booking hotel, eKYC, share NFT',
-            'Technologies : Reactjs, React-Native, Typescript, Microservices, Big deeper for explorer v...v...',
+            'Technologies : Reactjs, React-Native, Typescript, Microservices, Big deeper for explorer, Mixpanel, etc...',
             'Resource : more than 20 members',
           ],
         },
