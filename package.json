@@ -2,7 +2,10 @@
   "name": "my-cv",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://cntuan90.github.io/my-cv/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
