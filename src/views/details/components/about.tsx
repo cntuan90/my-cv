@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 30,
   },
   lineBreak: {
-    // lineBreak: 'normal',
+    lineHeight: 1.2,
   },
 }));
 

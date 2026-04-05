@@ -19,6 +19,7 @@ import Personal from './components/personal/personal';
 import Project from './components/project';
 import Skill from './components/skill/skill';
 import Image from '../../data/cntuan.jpg';
+import headerBackground from '../../data/bg.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   media: {
@@ -28,13 +29,15 @@ const useStyles = makeStyles((theme) => ({
   cardHeader: {
     paddingLeft: 90,
     paddingRight: 90,
-    marginTop: -150,
+    marginTop: -160,
     marginBottom: 0,
     alignItems: 'right',
     borderBottom: '1px solid black',
     '& .MuiCardHeader-title': {
       color: 'rgba(0, 0, 0, 0.54)',
-    }
+    },
+    backgroundImage: `url(${headerBackground})`,
+    backgroundSize: 'cover',
   },
   avatar: {
     width: theme.spacing(25),
@@ -59,6 +62,13 @@ const useStyles = makeStyles((theme) => ({
   avatarColor: {
     backgroundColor: '#546e7a',
   },
+  titleStyle: {
+    fontWeight: 'bold',
+  },
+  subheaderStyle: {
+    marginTop: -5,
+    color: 'rgba(0, 0, 0, 0.7)',
+  },
 }));
 
 const Profile: React.FC = () => {
@@ -73,9 +83,12 @@ const Profile: React.FC = () => {
           className={classes.cardHeader}
           avatar={<Avatar src={Image} className={classes.avatar} />}
           title={profile.name}
-          titleTypographyProps={{ variant: 'h4' }}
+          titleTypographyProps={{ variant: 'h4', className: classes.titleStyle }}
           subheader={profile.career}
-          subheaderTypographyProps={{ variant: 'h5' }}
+          subheaderTypographyProps={{
+            variant: 'h5',
+            className: classes.subheaderStyle,
+          }}
         />
 
         <CardContent>

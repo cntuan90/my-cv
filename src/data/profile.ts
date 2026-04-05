@@ -10,7 +10,7 @@ const profile = {
 
 I look forward to working with a professional team, where i can enjoy learning and sharing to help each other growth, practicing my skills so I can adapt well to the needs and flexible changes of the market.
 
-It would be great if I had the opportunity to work in an environment where English is the key point because I want to focus training my ability to communicate and work in English.`,
+In term of self-development and creativity, I am passionate about leveraging my unique blend of experiences to drive innovation and efficiency in my work. Whether improving processes or crafting intuitive technical solutions, I am committed to making a meaningful impact.`,
 
   personals: [
     {
@@ -23,19 +23,19 @@ It would be great if I had the opportunity to work in an environment where Engli
     },
     {
       image: 'location_on',
-      content: 'District 12, HCMC',
+      content: 'Hobart, Tasmania, Australia',
     },
     {
       image: 'school',
-      content: 'The Saigon College For Art Culture And Tourism',
-      subContent: 'Accountancy',
+      content: 'University of Tasmania',
+      subContent: 'Information & Communication Technology',
     },
   ],
 
   contacts: [
     {
       image: 'phone_iphone',
-      content: '0989275753',
+      content: '0493739158',
       type: 'text',
     },
     {
@@ -55,7 +55,7 @@ It would be great if I had the opportunity to work in an environment where Engli
     },
     {
       image: 'work',
-      content: 'https://www.linkedin.com/in/tuan-ngoc-68b586a4/',
+      content: 'https://www.linkedin.com/in/ngoc-tuan-cao-68b586a4/',
       type: 'url',
     },
     {
@@ -74,23 +74,30 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Programming Languages',
       image: 'code',
-      list: ['Javascript (Typescript)'],
+      list: ['Javascript (Typescript), python, php'],
     },
     {
       category: 'Back-end',
       image: 'storage',
-      list: ['Node.js, Express.js', 'MySQL, MongoDB'],
+      list: ['Node.js, Express.js', 'MySQL, MongoDB', 'PostgreSQL, RESTfull API'],
     },
     {
       category: 'Front-end',
       image: 'devices_other',
-      list: ['HTML5, CSS3, Bootstrap 4', 'React.js, React-native, redux', 'Material-UI, React-hook-form'],
+      list: [
+        'HTML5, CSS3, Bootstrap 4',
+        'React.js, React-native, redux',
+        'Material-UI, React-hook-form',
+        'Webpack, Vite, Babel',
+        'TailwindCSS, Tanstack',
+        'Expo, Flutter, Kotlin',
+      ],
     },
-    // {
-    //   category: 'Automation test',
-    //   image: 'build_circle',
-    //   list: ['Mocha, Chai', 'Jest, Enzyme', 'Puppeteer'],
-    // },
+    {
+      category: 'DevOps',
+      image: 'developer_board',
+      list: ['Kubernetes, Helm'],
+    },
     {
       category: 'AWS Cloud (researching)',
       image: 'cloud',
@@ -99,12 +106,7 @@ It would be great if I had the opportunity to work in an environment where Engli
     {
       category: 'Other',
       image: 'settings',
-      list: [
-        'Docker',
-        'Git, Git flow',
-        'RESTful API',
-        'Github/Gitlab CI/CD',
-      ],
+      list: ['Git, Git flow', 'RESTful API', 'Github/Gitlab CI/CD', 'Alloy/grafana, Loki'],
     },
   ],
 
@@ -126,7 +128,49 @@ It would be great if I had the opportunity to work in an environment where Engli
 
   experiences: [
     {
-      period: 'Apr 2022 - Present',
+      period: 'Feb 2025 - Present',
+      title: 'CSIRO',
+      position: 'Software Engineer (Undergraduate Traineeship Program 2025 & 2026 - 2 days/week)',
+      descriptions: [
+        'Migrate libraries using for Web Application from old to new one.',
+        'Collaborate with supervisor and team members on various tasks.',
+        'Apply technical knowledge to effectively apply on specific tasks.',
+      ],
+      projects: [
+        {
+          name: 'EverlogUI & EMMA Web Application',
+          position: 'Software Engineer',
+          descriptions: [
+            'An app that crew on ship can use to collect, manage, analyze, and visualise data to make better decision for ship management',
+            'Tech stacks: reactjs, python, nicegui, fastAPI, postgres, github (CI/CD, runners), docker, kubernete, alloy/grafana, loki, etc.',
+            'Resource : 4-5 members',
+          ],
+        },
+      ],
+    },
+    {
+      period: 'Apr 2022 - Jul 2023',
+      title: 'Sharering Vietnam',
+      position: 'Frontend Developer',
+      descriptions: [
+        'Providing IT solutions to adapt customer needs by utilising blockchain technology',
+        'Working as Frontend developer on web and mobile',
+        'Communicating in English with international teams',
+      ],
+      projects: [
+        {
+          name: 'Sharering Application (Mobile & Web)',
+          position: 'Frontend Developer',
+          descriptions: [
+            'An app that customer can use to access events, booking hotel, eKYC, share NFT',
+            'Technologies : Reactjs, React-Native, Typescript, Microservices, Big deeper for explorer, Mixpanel, etc...',
+            'Resource : more than 20 members',
+          ],
+        },
+      ],
+    },
+    {
+      period: 'Apr 2022 - Jul 2023',
       title: 'Sharering Vietnam',
       position: 'Frontend Developer',
       descriptions: [
@@ -168,10 +212,10 @@ It would be great if I had the opportunity to work in an environment where Engli
           ],
         },
         {
-          name: "Shift Management at Hospital",
+          name: 'Shift Management at Hospital',
           position: 'Team Leader',
           descriptions: [
-            "Create application for doctor to register shift online, easy to follow the shift",
+            'Create application for doctor to register shift online, easy to follow the shift',
             'Web Application',
             'Technologies : React.js, typescript, redux, material-ui, ...',
             'Resource : 4 members',
@@ -203,18 +247,6 @@ It would be great if I had the opportunity to work in an environment where Engli
   ],
 
   projects: [
-    // {
-    //   period: 'Mar 2021 - Jul 2021',
-    //   title: 'COLEAD network',
-    //   type: 'Freelance project',
-    //   descriptions: [
-    //     'A social platform aims to connect people in business & startup fields',
-    //     'Using React Native for Mobile platform',
-    //     'Using Express.js (Typescript) for server',
-    //     'Using PostgesSQL server for database',
-    //     'Deploy in AWS cloud server',
-    //   ],
-    // },
     {
       period: 'Oct 2020 - May 2021',
       title: 'To-Do-List, Dressing Room, User Management',
@@ -224,46 +256,27 @@ It would be great if I had the opportunity to work in an environment where Engli
         'Using vanilla javascript and boottrap',
       ],
     },
-    // {
-    //   period: 'Jun 2020 - Feb 2021',
-    //   title: 'SMARTVIETSOLUTION',
-    //   type: 'Freelance project',
-    //   descriptions: [
-    //     'An e-commercial web app which provides website templates for customers with many kinds of business aspect such as food, clothes, electronic and enterprises.',
-    //     'Based on PHP language with Laravel MVC framework',
-    //     'Using Bootstrap to build Web platform',
-    //     'Using MySQL for database',
-    //   ],
-    // },
     {
       period: 'Jun 2021 – Present',
-      title: 'Live Chat App, Music-Player, My-Cv',
+      title: 'Live Chat App, Music-Player, My-CV, AFL Statistic, Social Network Mobile App',
       type: 'Personal project',
       descriptions: [
         'Application features: real chat app, listen music, add music, CV online',
         'Using React.js (Typescript) for Web platform',
         'Using Nodejs, Express.js (Typescript) for server',
         'Using MySQL, firebase server for database',
+        'Using Expo & Firebase for Social Network Mobile App (Capstone project at Uni)',
+        'Using Flutter, Kotlin and Swift for AFL statistic app (Assignments at Uni)',
       ],
     },
-    // {
-    //   period: 'Sep 2017 – Jun 2018',
-    //   title: 'BUILD A GAS LEAKED MONITORING SYSTEM BASED ON WIRELESS NETWORKS',
-    //   type: 'Graduation project',
-    //   descriptions: [
-    //     'Using Arduino for processor and Lora network',
-    //     'Studying C/C++ language as well as HTML, CSS, Javascript for Web platform',
-    //     'Learning the knowledge of wireless sensor networks',
-    //   ],
-    // },
   ],
 };
 
 export type ProfileType = typeof profile;
-export type PersonalType = typeof profile.personals[0];
-export type ContactType = typeof profile.contacts[0];
-export type SkillType = typeof profile.skills[0];
-export type ProjectType = typeof profile.projects[0];
+export type PersonalType = (typeof profile.personals)[0];
+export type ContactType = (typeof profile.contacts)[0];
+export type SkillType = (typeof profile.skills)[0];
+export type ProjectType = (typeof profile.projects)[0];
 export type CertificateImage = { name: string; path: string };
 
 export default profile;
