@@ -19,7 +19,7 @@ import Personal from './components/personal/personal';
 import Project from './components/project';
 import Skill from './components/skill/skill';
 import Image from '../../data/cntuan.jpg';
-import headerBackground from '../../data/bg.jpeg';
+import headerBackground from '../../data/background.jpg';
 
 const useStyles = makeStyles((theme) => ({
   media: {
