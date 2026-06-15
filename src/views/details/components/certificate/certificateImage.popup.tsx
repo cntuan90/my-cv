@@ -55,7 +55,7 @@ const CertificateImagePopup: React.FC<Props> = (props) => {
       open={props.open}
       onClose={handleClose}
       fullWidth
-      maxWidth="lg"
+      maxWidth="md"
       PaperComponent={DraggableDialog}
     >
       <DialogTitle id="draggable-dialog-title" className={commonClasses.drag}></DialogTitle>
@@ -81,7 +81,7 @@ const CertificateImagePopup: React.FC<Props> = (props) => {
               value={tabValue}
               index={index}
               dir={theme.direction}
-              style={{ overflowX: 'auto' }}
+              style={{ overflowX: 'auto', textAlign: 'center' }}
             >
               <img className={classes.image} alt="certificate" src={image.path} />
             </TabPanel>

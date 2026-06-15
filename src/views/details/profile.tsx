@@ -12,7 +12,7 @@ import {
 import React from 'react';
 import profile from '../../data/profile';
 import About from './components/about';
-// import Certificate from './components/certificate/certificate';
+import Certificate from './components/certificate/certificate';
 import Contact from './components/contact/contact';
 import Experience from './components/experience';
 import Personal from './components/personal/personal';
@@ -24,12 +24,11 @@ import headerBackground from '../../data/background.jpg';
 const useStyles = makeStyles((theme) => ({
   media: {
     height: 0,
-    paddingTop: 160,
   },
   cardHeader: {
+    height: 190,
     paddingLeft: 90,
     paddingRight: 90,
-    marginTop: -160,
     marginBottom: 0,
     alignItems: 'right',
     borderBottom: '1px solid black',
@@ -104,7 +103,7 @@ const Profile: React.FC = () => {
             <Grid container item xs={8}>
               <Container disableGutters>
                 <About profile={profile} />
-                {/* <Certificate profile={profile} /> */}
+                <Certificate profile={profile} />
                 <Experience profile={profile} />
                 <Project profile={profile} />
               </Container>

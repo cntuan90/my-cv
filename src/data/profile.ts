@@ -1,16 +1,17 @@
 import moment from 'moment';
+import tasnetworkHackathon from './certificates/tasnetwork_hackathon.png';
 
 const profile = {
-  name: 'Cao Ngoc Tuan',
+  name: 'Cao, Ngoc Tuan',
   career: 'Software Engineer',
 
   // avatar: '/cntuan.jpg',
 
-  about: `My career path is to become an exellent Fullstack Developer, who can create high quality, secure and friendly products which can satify the expectation of customers.
+  about: `My career path is to become an exellent Fullstack Developer, who can create high quality, secure and friendly products which can satisfy the expectation of customers.
 
 I look forward to working with a professional team, where i can enjoy learning and sharing to help each other growth, practicing my skills so I can adapt well to the needs and flexible changes of the market.
 
-In term of self-development and creativity, I am passionate about leveraging my unique blend of experiences to drive innovation and efficiency in my work. Whether improving processes or crafting intuitive technical solutions, I am committed to making a meaningful impact.`,
+In term of self-development and creativity, I am passionate about addressing new challenges, leveraging my unique blend of experiences to drive innovation and efficiency in my work. Whether improving processes or crafting intuitive technical solutions, I am committed to making a meaningful impact.`,
 
   personals: [
     {
@@ -111,19 +112,15 @@ In term of self-development and creativity, I am passionate about leveraging my 
   ],
 
   certificates: [
-    // {
-    //   name: 'AWS Certified Solutions Architect – Associate',
-    //   link: 'https://www.credly.com/badges/b36874f3-2255-43c7-830e-33f6a7859c72?source=linked_in_profile',
-    // },
-    // {
-    //   name: 'Whizlabs certificates',
-    //   isPopup: true,
-    //   images: [
-    //     { name: 'Docker Certified', path: '/certificates/docker.jpg' },
-    //     { name: 'Github Training', path: '/certificates/github.jpg' },
-    //     { name: 'Apache Kafka', path: '/certificates/kafka.jpg' },
-    //   ],
-    // },
+    {
+      name: 'Tech Lead for Capstone Project (Social Network Mobile App) at UTAS',
+      link: 'https://www.linkedin.com/posts/guess-my-accent_a-real-world-industry-project-to-conclude-activity-7469855781694324736-PRnS?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYncEsBFF7UiDnsEi6dKW5Kw5YyInaV2V0',
+    },
+    {
+      name: 'TasNetwork Hackathon 1st Price (Apply AI Agent & AWS services)',
+      isPopup: true,
+      images: [{ name: 'Hackathon Certificate', path: tasnetworkHackathon }],
+    },
   ],
 
   experiences: [
@@ -132,18 +129,19 @@ In term of self-development and creativity, I am passionate about leveraging my 
       title: 'CSIRO',
       position: 'Software Engineer (Undergraduate Traineeship Program 2025 & 2026 - 2 days/week)',
       descriptions: [
-        'Migrate libraries using for Web Application from old to new one.',
-        'Collaborate with supervisor and team members on various tasks.',
-        'Apply technical knowledge to effectively apply on specific tasks.',
+        'Migrating legacy code to new libraries and use new technologies',
+        'Collaborate with supervisor and team members to address technical issues',
+        'Adapt new tech stacks and effectively apply to address specific tasks.',
       ],
       projects: [
         {
           name: 'EverlogUI & EMMA Web Application',
           position: 'Software Engineer',
           descriptions: [
-            'An app that crew on ship can use to collect, manage, analyze, and visualise data to make better decision for ship management',
-            'Tech stacks: reactjs, python, nicegui, fastAPI, postgres, github (CI/CD, runners), docker, kubernete, alloy/grafana, loki, etc.',
-            'Resource : 4-5 members',
+            'An app that crews on ship can use to collect, manage, analyze, and visualise data to make better decision for ship management',
+            'The goal is to create small components that could be reusable and scalable in other applications',
+            'Tech stacks: reactjs, python, nicegui, fastAPI, postgres, github (CI/CD, runners), docker, kubernete, helm chart, alloy/grafana, loki, etc.',
+            'Team size: 4-5 members',
           ],
         },
       ],
@@ -164,28 +162,7 @@ In term of self-development and creativity, I am passionate about leveraging my 
           descriptions: [
             'An app that customer can use to access events, booking hotel, eKYC, share NFT',
             'Technologies : Reactjs, React-Native, Typescript, Microservices, Big deeper for explorer, Mixpanel, etc...',
-            'Resource : more than 20 members',
-          ],
-        },
-      ],
-    },
-    {
-      period: 'Apr 2022 - Jul 2023',
-      title: 'Sharering Vietnam',
-      position: 'Frontend Developer',
-      descriptions: [
-        'Providing IT solutions to adapt customer needs by utilising blockchain technology',
-        'Working as Frontend developer on web and mobile',
-        'Communicating in English with international teams',
-      ],
-      projects: [
-        {
-          name: 'Sharering Application (Mobile & Web)',
-          position: 'Frontend Developer',
-          descriptions: [
-            'An app that customer can use to access events, booking hotel, eKYC, share NFT',
-            'Technologies : Reactjs, React-Native, Typescript, Microservices, Big deeper for explorer, Mixpanel, etc...',
-            'Resource : more than 20 members',
+            'Team size: more than 20 members',
           ],
         },
       ],
@@ -207,7 +184,7 @@ In term of self-development and creativity, I am passionate about leveraging my 
             'Employee management, spa course booking, calendar arrangement, admin panel management',
             'Web Application',
             'Technologies : Reactjs, typescript, redux, material-ui...',
-            'Resource : 10 members',
+            'Team size: 10 members',
             'Period : 9 months',
           ],
         },
@@ -218,7 +195,7 @@ In term of self-development and creativity, I am passionate about leveraging my 
             'Create application for doctor to register shift online, easy to follow the shift',
             'Web Application',
             'Technologies : React.js, typescript, redux, material-ui, ...',
-            'Resource : 4 members',
+            'Team size: 4 members',
             'Period : 3 months',
           ],
         },
@@ -265,7 +242,7 @@ In term of self-development and creativity, I am passionate about leveraging my 
         'Using React.js (Typescript) for Web platform',
         'Using Nodejs, Express.js (Typescript) for server',
         'Using MySQL, firebase server for database',
-        'Using Expo & Firebase for Social Network Mobile App (Capstone project at Uni)',
+        'Using Expo (React Native), ReactJs, Firebase, Google Cloud, Play Store, StripeAPI for Social Network Mobile App (Capstone project at University of Tasmania)',
         'Using Flutter, Kotlin and Swift for AFL statistic app (Assignments at Uni)',
       ],
     },

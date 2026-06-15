@@ -16,8 +16,7 @@ import { ProfileType } from '../../../data/profile';
 
 const useStyles = makeStyles(() => ({
   root: {
-    // marginTop: 200,
-    padding: 30,
+    paddingLeft: 30,
   },
 }));
 

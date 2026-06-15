@@ -5,7 +5,8 @@ import CertificateImagePopup from './certificateImage.popup';
 
 const useStyles = makeStyles(() => ({
   root: {
-    padding: 30,
+    paddingLeft: 30,
+    paddingBottom: 20,
   },
 }));
 
@@ -23,14 +24,17 @@ const Certificate: React.FC<Props> = (props) => {
   return (
     <Box className={classes.root}>
       <Typography variant="h5" component="h2" display="block" gutterBottom>
-        <strong>CERTIFICATES</strong>
+        <strong>ACHIEVEMENTS</strong>
       </Typography>
 
       <ul>
-        {/* {props.profile.certificates.map((certificate, index) => (
+        {props.profile.certificates.map((certificate, index) => (
           <li key={index}>
             {certificate.isPopup ? (
-              <Link onClick={() => setImagePopupData({ open: true, images: certificate.images })}>
+              <Link
+                component="button"
+                onClick={() => setImagePopupData({ open: true, images: certificate.images || [] })}
+              >
                 <Typography variant="h6">
                   {certificate.name}
                   {certificate.images && ` [${certificate.images.length}]`}
@@ -45,7 +49,7 @@ const Certificate: React.FC<Props> = (props) => {
               </Link>
             )}
           </li>
-        ))} */}
+        ))}
       </ul>
 
       <CertificateImagePopup
