@@ -8,7 +8,8 @@ import { theme } from './style';
 const useStyles = makeStyles(() => ({
   root: {
     minWidth: 800,
-    marginTop: '-35px',
+    // marginTop: '-35px',
+    marginTop: '5px',
     marginBottom: '-55px',
   },
 }));
