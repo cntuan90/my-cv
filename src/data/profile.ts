@@ -1,5 +1,7 @@
 import moment from 'moment';
 import tasnetworkHackathon from './certificates/tasnetwork_hackathon.png';
+import cloud_practitioner from './certificates/cloud_practitioner.png';
+import technical_essential from './certificates/technical_essential.png';
 
 const profile = {
   name: 'Cao, Ngoc Tuan',
@@ -14,10 +16,10 @@ I look forward to working with a professional team, where i can enjoy learning a
 In term of self-development and creativity, I am passionate about addressing new challenges, leveraging my unique blend of experiences to drive innovation and efficiency in my work. Whether improving processes or crafting intuitive technical solutions, I am committed to making a meaningful impact.`,
 
   personals: [
-    {
-      image: 'today',
-      content: moment('1990/12/18').format('LL'),
-    },
+    // {
+    //   image: 'today',
+    //   content: moment('1990/12/18').format('LL'),
+    // },
     {
       image: 'face',
       content: 'Male',
@@ -121,15 +123,23 @@ In term of self-development and creativity, I am passionate about addressing new
       isPopup: true,
       images: [{ name: 'Hackathon Certificate', path: tasnetworkHackathon }],
     },
+    {
+      name: 'AWS Certificates (Cloud Practitioner, Technical Essentials)',
+      isPopup: true,
+      images: [
+        { name: 'Cloud Practitioner', path: cloud_practitioner },
+        { name: 'Technical Essentials', path: technical_essential },
+      ],
+    },
   ],
 
   experiences: [
     {
       period: 'Feb 2025 - Present',
-      title: 'CSIRO',
-      position: 'Software Engineer (Undergraduate Traineeship Program 2025 & 2026 - 2 days/week)',
+      title: "CSIRO (Australia' National Science Agency)",
+      position: 'Software Engineer (Undergraduate Traineeship Program 2025 & 2026)',
       descriptions: [
-        'Migrating legacy code to new libraries and use new technologies',
+        'Migrating legacy code to new technologies',
         'Collaborate with supervisor and team members to address technical issues',
         'Adapt new tech stacks and effectively apply to address specific tasks.',
       ],
@@ -140,7 +150,7 @@ In term of self-development and creativity, I am passionate about addressing new
           descriptions: [
             'An app that crews on ship can use to collect, manage, analyze, and visualise data to make better decision for ship management',
             'The goal is to create small components that could be reusable and scalable in other applications',
-            'Tech stacks: reactjs, python, nicegui, fastAPI, postgres, github (CI/CD, runners), docker, kubernete, helm chart, alloy/grafana, loki, etc.',
+            'Tech stacks: React.js, Typescript, Material-UI, TailwindCSS, Tanstack, Python, Nicegui, FastAPI, PostgreSQL, Github (CI/CD, runners), Docker, Kubernetes, Helm Chart, Alloy/Grafana, etc.',
             'Team size: 4-5 members',
           ],
         },
