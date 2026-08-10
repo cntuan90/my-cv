@@ -11,7 +11,7 @@ const profile = {
 
   about: `My career path is to become an exellent Fullstack Developer, who can create high quality, secure and friendly products which can satisfy the expectation of customers.
 
-I look forward to working with a professional team, where i can enjoy learning and sharing to help each other growth, practicing my skills so I can adapt well to the needs and flexible changes of the market.
+I look forward to working with a professional team, where i can enjoy learning and sharing to help each other growth, practicing my skills so I can adapt well to the needs and flexible changes.
 
 In term of self-development and creativity, I am passionate about addressing new challenges, leveraging my unique blend of experiences to drive innovation and efficiency in my work. Whether improving processes or crafting intuitive technical solutions, I am committed to making a meaningful impact.`,
 
@@ -72,17 +72,17 @@ In term of self-development and creativity, I am passionate about addressing new
     {
       category: 'Languages',
       image: 'g_translate',
-      list: ['English (TOEIC 695, IELTS 6.0)', 'Japanese (JLPT N2)'],
+      list: ['English (Fluent)', 'Japanese (Fluent)', 'Vietnamese (Native)'],
     },
     {
       category: 'Programming Languages',
       image: 'code',
-      list: ['Javascript (Typescript), python, php'],
+      list: ['Javascript (Typescript), Python'],
     },
     {
       category: 'Back-end',
       image: 'storage',
-      list: ['Node.js, Express.js', 'MySQL, MongoDB', 'PostgreSQL, RESTfull API'],
+      list: ['Python, Node.js, Express.js', 'MySQL, MongoDB', 'PostgreSQL, RESTfull API'],
     },
     {
       category: 'Front-end',
@@ -109,7 +109,13 @@ In term of self-development and creativity, I am passionate about addressing new
     {
       category: 'Other',
       image: 'settings',
-      list: ['Git, Git flow', 'RESTful API', 'Github/Gitlab CI/CD', 'Alloy/grafana, Loki'],
+      list: [
+        'Git, Git flow',
+        'Redis',
+        'Github/Gitlab CI/CD',
+        'Alloy/grafana, Nicegui',
+        'Docker, Docker-compose',
+      ],
     },
   ],
 
